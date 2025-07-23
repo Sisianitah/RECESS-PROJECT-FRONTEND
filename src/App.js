@@ -8,6 +8,7 @@ import Blogs from './Pages/Blogs';
 import AboutUs from './Pages/AboutUs';
 import Contact from './Pages/Contact';
 import Footer from './Components/Footer';
+import Testimonials from './Components/Testimonials';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       <Services />
 
       <Blogs />
+
+      <Testimonials />
 
       <Footer />
     </div>
