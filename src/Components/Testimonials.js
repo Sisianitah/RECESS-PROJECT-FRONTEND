@@ -10,7 +10,7 @@ const testimonials = [
       "Very good, professional and honest service from the team. The mechanics are very knowledgeable and their work is very good. Your car even gets a free wash!",
   },
   {
-    name: "REENIN BAHATI",
+    name: "RHENIN BAHATI",
     rating: 5,
     source: "Review from Google",
     comment:

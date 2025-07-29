@@ -32,6 +32,26 @@ const services = [
     icon: "🚨",
     description: "Quick, on-the-spot diagnostics and repairs.\n\nIdeal for breakdowns or road service needs.",
   },
+  {
+    title: "Condenser & Evaporator Services",
+    icon: "🚨",
+    description: "Cleaning or replacing clogged or damaged condensers and evaporators.\n\nImproves air flow and cooling efficiency.",
+  },
+  {
+    title: "Seasonal A/C Maintenance Packages",
+    icon: "🚨",
+    description: "Preventive checks before hot seasons.\n\nIncludes system inspection, refrigerant top-up, and filter replacement.",
+  },
+  {
+    title: "Climate Control Electrical System Repair",
+    icon: "🚨",
+    description: "Troubleshooting and fixing issues with climate control buttons,\n\nsensors, and modules.",
+  },
+  {
+    title: "A/C System Retrofit and Upgrade",
+    icon: "🚨",
+    description: "Upgrades older A/C systems to newer refrigerant standards.\n\nCustom installation of modern A/C units in classic or imported vehicles.",
+  },
 ];
 
 const Services = () => {

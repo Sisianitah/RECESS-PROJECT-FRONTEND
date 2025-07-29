@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutUs.css";
 import workerImage from "../Assets/1454.jpg";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -19,11 +20,12 @@ const AboutUs = () => {
             <br />
             We specialize in keeping you cool and comfortable on the road with professional, reliable, and affordable A/C solutions.
           </p>
-          <button className="learn-more">LEARN MORE</button>
+          <Link to="/services">
+           <button className="learn-more">LEARN MORE</button>
+          </Link>  
         </div>
       </div>
-
-      <div className="bottom-section">
+        <div className="bottom-section">
         <div className="box">
           <h3>OUR VISION</h3>
           <p>

@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #4890f0;
+  background-color: #f57c00;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -13,6 +13,12 @@
 .logo {
     width: 180px;
 }
+.logo-text {
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: -1000px;
+  margin-bottom: -80px;
+}
 
 .nav-links {
   display: flex;
@@ -22,7 +28,7 @@
 }
 
 .book-btn {
-  background-color: #ff3d00;
+  background-color: #f57c00;
   color: white;
   border: none;
   padding: 0.5rem 1rem;

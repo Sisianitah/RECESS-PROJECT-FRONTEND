@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: #003366;
+  background-color: #736F6F;
   color: #fff;
   padding: 2rem 1rem;
   font-family: Arial, sans-serif;
@@ -8,7 +8,7 @@
 .footer-top {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 15rem;
   justify-content: space-between;
 }
 
@@ -43,7 +43,7 @@
 
 .newsletter button {
   padding: 0.5rem 1rem;
-  background-color: #ff3d00;
+  background-color: #f57c00;
   color: #fff;
   border: none;
   border-radius: 20px;
