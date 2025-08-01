@@ -8,6 +8,7 @@ import Services from './Pages/Services';
 import Blogs from './Pages/Blogs';
 import AboutUs from './Pages/AboutUs';
 import Contact from './Pages/Contact';
+import SignUp from './Pages/SignUp';
 import Footer from './Components/Footer';
 import Testimonials from './Components/Testimonials';
 import Operations from './Components/Operations';
@@ -24,6 +25,7 @@ function App() {
             <AboutUs />
             <Contact />
             <Services />
+            <SignUp />
             <Blogs />
             <Testimonials />
           </>
@@ -32,6 +34,7 @@ function App() {
         <Route path="/operations" element={<Operations />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/sign Up" element={<SignUp />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/testimonials" element={<Testimonials />} />
       </Routes>

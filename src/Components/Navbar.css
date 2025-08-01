@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #f57c00;
+  background-color: #FF9751;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -28,7 +28,7 @@
 }
 
 .book-btn {
-  background-color: #f57c00;
+  background-color: #FF9751;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
