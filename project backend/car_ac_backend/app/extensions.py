@@ -1,0 +1,14 @@
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
+from flask import Flask
+from flask_bcrypt import Bcrypt
+from flask_jwt_extended import JWTManager
+
+
+#creating a db instance
+db = SQLAlchemy()
+
+#creating a flask migrate instance
+migrate = Migrate()
+bcrypt = Bcrypt()
+jwt = JWTManager()
