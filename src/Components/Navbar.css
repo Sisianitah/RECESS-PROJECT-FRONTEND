@@ -23,6 +23,7 @@
 .nav-links {
   display: flex;
   list-style: none;
+  color: white;
   gap: 1.5rem;
   font-weight: bold;
 }

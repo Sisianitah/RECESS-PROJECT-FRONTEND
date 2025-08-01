@@ -1,5 +1,7 @@
 import React from 'react';
 import './Contact.css';
+import { Link } from 'react-router-dom';
+
 
 function Contact() {
   return (
@@ -54,7 +56,9 @@ function Contact() {
                 I agree that my submitted data is being collected and stored as explained here!
               </label>
             </div>
+            <Link to="/contact">
             <button type="submit">submit</button>
+            </Link>
           </form>
         </div>
       </div>

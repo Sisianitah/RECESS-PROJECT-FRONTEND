@@ -10,7 +10,7 @@
 }
 
 .sub-title {
-  color: #ff6600;
+  color: #FF9751;
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
@@ -46,7 +46,7 @@
 }
 
 .learn-more-btn {
-  background-color: #ff6600;
+  background-color: #FF9751;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -56,7 +56,7 @@
 }
 
 .learn-more-btn:hover {
-  background-color: #e05500;
+  background-color: #FF9751;
 }
 
 .vision-section {

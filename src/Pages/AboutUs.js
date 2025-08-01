@@ -1,9 +1,10 @@
 import React from 'react';
 import './AboutUs.css';
-import workerImage from "../Assets/1454.jpg"; // Replace with actual path
-import missionImg from '../Assets/WhatsApp Image 2025-07-27 at 06.58.15_fb48a1be.jpg';  // Replace with actual path
-import visionImg from '../Assets/WhatsApp Image 2025-07-27 at 06.57.46_fc5b4a3e.jpg';    // Replace with actual path
-import autelImg from '../Assets/WhatsApp Image 2025-07-27 at 06.56.58_9a058d83.jpg';        // Replace with actual path
+import workerImage from "../Assets/1454.jpg"; 
+import missionImg from '../Assets/WhatsApp Image 2025-07-27 at 06.58.15_fb48a1be.jpg';  
+import visionImg from '../Assets/WhatsApp Image 2025-07-27 at 06.57.46_fc5b4a3e.jpg';    
+import autelImg from '../Assets/WhatsApp Image 2025-07-27 at 06.56.58_9a058d83.jpg';
+import { Link } from 'react-router-dom';        
 
 const AboutUs = () => {
   return (
@@ -19,7 +20,9 @@ const AboutUs = () => {
             We specialize in keeping you cool and comfortable on the road with professional, reliable, and affordable A/C solutions.
           </p>
           <p className="eng">ENG. PiDO MICHAEL</p>
+          <Link to="/services">
           <button className="learn-more-btn">LEARN MORE</button>
+          </Link>
         </div>
         <div className="intro-img">
           <img src={workerImage} alt="Engineer Pedo Michael" />
