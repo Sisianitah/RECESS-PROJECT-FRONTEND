@@ -20,7 +20,7 @@ const AboutUs = () => {
             We specialize in keeping you cool and comfortable on the road with professional, reliable, and affordable A/C solutions.
           </p>
           <p className="eng">ENG. PiDO MICHAEL</p>
-          <Link to="/services">
+          <Link to="/signup">
           <button className="learn-more-btn">LEARN MORE</button>
           </Link>
         </div>

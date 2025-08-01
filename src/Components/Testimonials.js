@@ -1,5 +1,6 @@
 import React from "react";
 import "./Testimonials.css";
+import { Link } from "react-router-dom";
 
 const testimonials = [
   {
@@ -46,7 +47,9 @@ const Testimonials = () => {
           </div>
         ))}
       </div>
+      <Link to="/contact">
       <button className="feedback-button">Give Branch Feedback</button>
+      </Link>
     </section>
   );
 };
