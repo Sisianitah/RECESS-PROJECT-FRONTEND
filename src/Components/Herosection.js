@@ -24,11 +24,11 @@ function HeroSection() {
     >
       <div className="overlay">
         <div className="hero-content">
-          <h1>WELCOME TO CAR A-C MASTERS</h1>
+          <h1>WELCOME TO 
+            <br />
+            CAR A-C MASTERS</h1>
           <p>
             Your trusted experts in car air conditioning service and repair.
-            <br />
-            We specialize in keeping you cool and comfortable on the road.
           </p>
           <div className="hero-buttons">
             <Link to="/about">
