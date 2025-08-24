@@ -1,0 +1,73 @@
+.hero-section {
+  background-color: #000;
+  position: relative;
+  height: 100vh;
+}
+
+.hero-car {
+  max-width: 700px;
+  margin-top: 50px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.nav-link {
+  color: white !important;
+  margin-right: 15px;
+}
+
+.nav-link.active {
+  color: orange !important;
+}
+
+.btn-warning {
+  background-color: orange;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+
+.floating-icons {
+  position: fixed;
+  right: 20px;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.whatsapp-icon, .phone-icon {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+}
+
+.whatsapp-icon {
+  background: green;
+}
+
+.phone-icon {
+  background: #444;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  background: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: 20px;
+}
+
+.right-arrow {
+  right: 20px;
+}

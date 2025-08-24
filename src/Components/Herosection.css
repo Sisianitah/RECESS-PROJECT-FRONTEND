@@ -1,5 +1,14 @@
-.hero {
+/* ---------------- HERO SECTION ---------------- */
+.hero-section {
+  position: relative;
   height: 100vh;
+  background-color: #000;
+  overflow: hidden;
+}
+
+/* Background slideshow */
+.hero {
+  height: 100%;
   background-size: cover;
   background-position: center;
   transition: background-image 1s ease-in-out;
@@ -9,8 +18,9 @@
   justify-content: center;
 }
 
+/* Dark overlay */
 .overlay {
-  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for contrast */
+  background-color: rgba(0, 0, 0, 0.55);
   width: 100%;
   height: 100%;
   display: flex;
@@ -18,6 +28,61 @@
   justify-content: center;
 }
 
+/* ---------------- NAVBAR ---------------- */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffb84d !important;
+}
+
+.nav-link {
+  color: white !important;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffb84d !important;
+}
+
+.nav-link.active {
+  color: #ffb84d !important;
+}
+
+/* Buttons inside navbar */
+.btn-warning {
+  background-color: orange;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: background 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #ff9100;
+}
+
+.btn-outline-warning {
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #ffb84d;
+  border: 2px solid #ffb84d;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ffb84d;
+  color: black;
+}
+
+/* ---------------- HERO CONTENT ---------------- */
 .hero-content {
   text-align: center;
   color: white;
@@ -29,6 +94,7 @@
 .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  text-transform: uppercase;
 }
 
 .hero-content p {
@@ -46,7 +112,7 @@
 
 .learn-btn,
 .book-btn {
-  background-color: #FF9751;
+  background-color: #ff9751;
   border: none;
   padding: 12px 24px;
   font-size: 1rem;
@@ -58,8 +124,70 @@
 
 .learn-btn:hover,
 .book-btn:hover {
-  background-color: #FF9751;
+  background-color: #ff7300;
 }
+
+/* ---------------- FLOATING ICONS ---------------- */
+.floating-icons {
+  position: fixed;
+  right: 20px;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 20;
+}
+
+.whatsapp-icon,
+.phone-icon {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.whatsapp-icon {
+  background: green;
+}
+
+.phone-icon {
+  background: #444;
+}
+
+.whatsapp-icon:hover,
+.phone-icon:hover {
+  transform: scale(1.1);
+}
+
+/* ---------------- SLIDER ARROWS ---------------- */
+.arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  background: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translateY(-50%);
+  z-index: 15;
+  transition: background 0.3s ease;
+}
+
+.arrow:hover {
+  background: #ff7300;
+}
+
+.left-arrow {
+  left: 20px;
+}
+
+.right-arrow {
+  right: 20px;
+}
+
 
 @keyframes fadeIn {
   from {
@@ -73,76 +201,90 @@
 }
 
 
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
 
+  .hero-content p {
+    font-size: 1rem;
+  }
 
+  .arrow {
+    font-size: 24px;
+    padding: 8px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .hero {
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  .navbar-brand {
+    font-size: 18px;
+  }
 }
 
-.overlay {
-  background: rgba(0, 0, 0, 0.6);
-  padding: 2rem;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-}
 
-h1 {
-  font-size: 3rem;
-  font-weight: 800;
-  margin-bottom: 1rem;
-  border-radius: 20px;
-  background-color: rgba(240, 248, 255, 0.16);
-  padding-top: 100px;
-  padding-left: 400px;
-  height: 100px;
-  width: 800px;
-}
 
-p {
-  font-size: 1.2rem;
-  max-width: 600px;
-  margin: auto;
-  margin-bottom: 2rem;
-}
 
-.hero-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
 
-.learn-btn,
-.book-btn {
-  background-color: #FF9751;
-  color: white;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  font-weight: bold;
-  font-size: 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
