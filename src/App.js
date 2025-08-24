@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar';
 import HeroSection from './Components/Herosection';
 import Services from './Pages/Services';
 import Blogs from './Pages/Blogs';
+// import TeamSection from './Components/Teamsection';
 import AboutUs from './Pages/AboutUs';
 import Contact from './Pages/Contact';
 import SignUp from './Pages/SignUp';
@@ -22,6 +23,7 @@ function App() {
           <>
             <HeroSection />
             <Operations />
+            {/* <TeamSection /> */}
             <AboutUs />
             <Contact />
             <Services />
@@ -32,6 +34,7 @@ function App() {
         } />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/operations" element={<Operations />} />
+        {/* <Route path="/teamsection" element={<TeamSection />} /> */}
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
         <Route path="/sign Up" element={<SignUp />} />

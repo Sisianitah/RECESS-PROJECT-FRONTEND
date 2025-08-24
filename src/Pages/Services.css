@@ -1,3 +1,23 @@
+.services-container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.servises-us {
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+.services-hero {
+  background: url("../Assets/WhatsApp\ Image\ 2025-07-27\ at\ 06.57.46_fc5b4a3e.jpg") center/cover no-repeat;
+  padding: 500px 0;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .services-section {
   padding: 4rem 2rem;
   text-align: center;

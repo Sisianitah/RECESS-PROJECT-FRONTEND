@@ -6,7 +6,7 @@
 
 .about-hero {
   background: url("../Assets/WhatsApp\ Image\ 2025-07-27\ at\ 06.56.58_9a058d83.jpg") center/cover no-repeat;
-  padding: 50px 0;
+  padding: 300px 0;
   color: white;
   font-size: 2rem;
   font-weight: bold;
@@ -35,7 +35,7 @@
 }
 
 .intro-title {
-  color: #ff4d00;
+  color: #050505;
 }
 
 .author {
@@ -54,7 +54,7 @@
 
 .mission-title,
 .vision-title {
-  color: #ff4d00;
+  color: #090909;
   font-weight: bold;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .learn-more button {
-  background: #ff4d00;
+  background: #020202;
   color: white;
   border: none;
   padding: 12px 25px;

@@ -4,6 +4,20 @@
   background-color: #fff;
 }
 
+.contact-us {
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+.contact-hero {
+  background: url("../Assets/istockphoto-1365436662-612x612.jpg") center/cover no-repeat;
+  padding: 500px 0;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 /* Top Row */
 .top-contact-info {
   display: flex;
@@ -69,9 +83,9 @@ iframe {
 .form-section input,
 .form-section textarea {
   padding: 0.8rem;
-  background-color: #FF9751;
+  background-color: #070707;
   border: none;
-  color: #000;
+  color: #faf8f8;
   font-size: 1rem;
   border-radius: 5px;
 }
@@ -85,7 +99,7 @@ iframe {
 
 button[type="submit"] {
   padding: 0.8rem;
-  background-color: #FF9751;
+  background-color: #050505;
   color: white;
   border: none;
   font-weight: bold;
