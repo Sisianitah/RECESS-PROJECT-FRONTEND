@@ -1,8 +1,8 @@
 import React from "react";
 import "./Teamsection.css"; 
-import imgEllipse1 from "../Assets/WhatsApp Image 2025-08-05 at 15.56.04_35c94cd1.jpg";
+import imgEllipse1 from "../Assets/AMBASSADOR.jpg";
 import imgEllipse2 from "../Assets/1454 resize.jpg";
-import imgEllipse3 from "../Assets/WhatsApp Image 2025-08-14 at 12.54.23_9a7ad045.jpg";
+import imgEllipse3 from "../Assets/WhatsApp Image 2025-08-05 at 15.56.04_35c94cd1.jpg";
 
 const Teamsection = () => {
   const teamMembers = [

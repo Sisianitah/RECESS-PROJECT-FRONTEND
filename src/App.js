@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import './App.css';
 
-import Navbar from './Components/Navbar';
+// import Navbar from './Components/Navbar';
 import HeroSection from './Components/Herosection';
 // import Home from './Pages/Home';
 import Services from './Pages/Services';
@@ -15,11 +15,12 @@ import SignUp from './Pages/SignUp';
 import Footer from './Components/Footer';
 import Testimonials from './Components/Testimonials';
 import Operations from './Components/Operations';
+// import ServiceCard from './Components/ServicesCard';
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         {/* Home page */}
         <Route
@@ -33,6 +34,7 @@ function App() {
               <AboutUs />
               <Contact />
               <Services />
+              {/* <ServiceCard /> */}
               <SignUp />
               <Blogs />
               <Testimonials />

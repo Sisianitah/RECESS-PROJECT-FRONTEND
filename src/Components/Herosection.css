@@ -16,21 +16,42 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 80px; /* Adjust based on navbar height */
 }
 
 /* Dark overlay */
 .overlay {
-  background-color: rgba(0, 0, 0, 0.55);
+  background-color: #020202;
+  color: white;
+  text-decoration-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  /* background-color: rgba(0, 0, 0, 0.55);
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 /* ---------------- NAVBAR ---------------- */
+.logo {
+    width: 180px;
+}
+.logo-text {
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: -1000px;
+  margin-bottom: -80px;
+}
+
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -128,6 +149,7 @@
 }
 
 /* ---------------- FLOATING ICONS ---------------- */
+
 .floating-icons {
   position: fixed;
   right: 20px;
@@ -145,20 +167,43 @@
   border-radius: 50%;
   color: white;
   cursor: pointer;
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
+/* WhatsApp Icon */
 .whatsapp-icon {
   background: green;
 }
 
+/* Phone Icon */
 .phone-icon {
   background: #444;
 }
 
-.whatsapp-icon:hover,
+/* Glow + Pulse Hover Effect */
+.whatsapp-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.7);
+  animation: pulseGreen 1.5s infinite;
+}
+
 .phone-icon:hover {
   transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 165, 0, 0.7);
+  animation: pulseOrange 1.5s infinite;
+}
+
+/* Pulse Animations */
+@keyframes pulseGreen {
+  0% { box-shadow: 0 0 10px rgba(0, 255, 0, 0.6); }
+  50% { box-shadow: 0 0 20px rgba(0, 255, 0, 1); }
+  100% { box-shadow: 0 0 10px rgba(0, 255, 0, 0.6); }
+}
+
+@keyframes pulseOrange {
+  0% { box-shadow: 0 0 10px rgba(255, 165, 0, 0.6); }
+  50% { box-shadow: 0 0 20px rgba(255, 165, 0, 1); }
+  100% { box-shadow: 0 0 10px rgba(255, 165, 0, 0.6); }
 }
 
 /* ---------------- SLIDER ARROWS ---------------- */
@@ -219,72 +264,3 @@
     font-size: 18px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

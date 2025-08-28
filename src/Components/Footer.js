@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 import logo from '../Assets/RBG CAR LOGO.png';
 
@@ -36,13 +37,12 @@ function Footer() {
         <div className="footer-column">
           <h4>PAGES</h4>
           <ul>
-            <li>HOME</li>
-            <li>ABOUT US</li>
-            <li>CONTACT</li>
-            <li>SERVICE</li>
-            <li>REVIEWS</li>
-            <li>GALLERY</li>
-            <li>BLOGS</li>
+            <li><Link to="/">HOME</Link></li>
+            <li><Link to="/about">ABOUT US</Link></li>
+            <li><Link to="/services">SERVICE</Link></li>
+            <li><Link to="/blogs">BLOGS</Link></li>
+            <li><Link to="/contact">CONTACT</Link></li>
+            <li><Link to="/testimonials">TESTIMONIALS</Link></li>
           </ul>
         </div>
 
