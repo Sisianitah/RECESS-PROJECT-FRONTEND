@@ -1,6 +1,6 @@
 .testimonials-section {
   padding: 40px 20px;
-  background-color: #fff;
+  background-color: #020202;
   text-align: center;
 }
 
@@ -31,7 +31,7 @@
 
 .testimonial-card h3 {
   font-weight: 600;
-  color: #555;
+  color: #fefdfd;
   margin-bottom: 10px;
 }
 
@@ -43,7 +43,7 @@
 
 .source {
   font-size: 0.9rem;
-  color: #888;
+  color: #fffefe;
   margin-bottom: 15px;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .feedback-button {
-  background-color: #020202;
+  background-color: #060606;
   color: white;
   font-weight: bold;
   padding: 12px 24px;

@@ -1,7 +1,7 @@
 .contact-container {
   padding: 2rem;
   font-family: Arial, sans-serif;
-  background-color: #fff;
+  background-color: #030303;
 }
 
 .contact-us {
@@ -70,7 +70,7 @@ iframe {
 .form-section h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #fdfdfd;
   padding-bottom: 0.5rem;
 }
 
@@ -83,9 +83,9 @@ iframe {
 .form-section input,
 .form-section textarea {
   padding: 0.8rem;
-  background-color: #070707;
+  background-color: #fbfafa;
   border: none;
-  color: #faf8f8;
+  color: #040404;
   font-size: 1rem;
   border-radius: 5px;
 }
@@ -99,8 +99,8 @@ iframe {
 
 button[type="submit"] {
   padding: 0.8rem;
-  background-color: #050505;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(3, 3, 3);
   border: none;
   font-weight: bold;
   border-radius: 30px;

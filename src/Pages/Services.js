@@ -55,7 +55,8 @@ const Services = () => {
         <h1>SERVICES</h1>
       </div>
 
-    <div className="py-5 bg-light">
+    <div className="card bg-white shadow">
+
       <Container>
         <header className="text-center mb-5">
           <h1 className="fw-bold">Our Services</h1>

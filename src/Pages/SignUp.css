@@ -2,19 +2,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: rgb(4, 4, 4);
   min-height: 100vh;
   padding: 20px;
 }
 
 .signup-form {
-  background-color: #040404;
+  background-color: #030303;
   border-radius: 25px;
   padding: 40px 30px;
   max-width: 400px;
   width: 100%;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(237, 237, 237, 0.2);
 }
 
 .signup-form h2 {
