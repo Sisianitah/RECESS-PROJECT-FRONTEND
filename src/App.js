@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import './App.css';
 
-// import Navbar from './Components/Navbar';
+import Navbar from './Components/Navbar';
 import HeroSection from './Components/Herosection';
 // import Home from './Pages/Home';
 import Services from './Pages/Services';
@@ -20,7 +20,7 @@ import Operations from './Components/Operations';
 function App() {
   return (
     <Router>
-      {/* <Navbar /> */}
+      <Navbar />
       <Routes>
         {/* Home page */}
         <Route

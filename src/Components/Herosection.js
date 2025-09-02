@@ -63,7 +63,7 @@ function HeroSection() {
               </Link>
             </li>
           </ul>
-          <Link to="/booking">
+          <Link to="/services">
             <button className="btn btn-warning ms-3 fw-bold">Book Service</button>
           </Link>
           <Link to="/signup">
