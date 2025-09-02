@@ -58,6 +58,38 @@
   z-index: 10;
 }
 
+.navbar {
+  background-color: #020202;
+  color: white;
+  text-decoration-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+    width: 180px;
+}
+.logo-text {
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: -1000px;
+  margin-bottom: -80px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  color: white;
+  gap: 1.5rem;
+  font-weight: bold;
+}
+
+
 .navbar-brand {
   font-size: 24px;
   font-weight: bold;
