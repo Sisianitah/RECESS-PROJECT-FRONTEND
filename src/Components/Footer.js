@@ -1,24 +1,12 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../Assets/RBG CAR LOGO.png';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 function Footer() {
   return (
     <footer className="footer-container">
-      {/* Top Section */}
       <div className="footer-top">
-        <div className="footer-logo-section">
-          <img src={logo} alt="Car A-C Masters Logo" className="logo" />
-          <p>Car A-C MASTERS — your trusted experts in car air conditioning service and repair.</p>
-          
-          <form className="newsletter">
-            <label>Subscribe for News Letters</label>
-            <input type="email" placeholder="Email" required />
-            <button type="submit">submit</button>
-          </form>
-        </div>
-
-        {/* Content Links */}
+        {/* CONTENT */}
         <div className="footer-column">
           <h4>CONTENT</h4>
           <ul>
@@ -32,7 +20,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Page Links */}
+        {/* PAGES */}
         <div className="footer-column">
           <h4>PAGES</h4>
           <ul>
@@ -46,7 +34,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Contact Info */}
+        {/* CONTACT INFORMATION */}
         <div className="footer-column">
           <h4>CONTACT INFORMATION</h4>
           <ul>
@@ -57,14 +45,25 @@ function Footer() {
             <li>📘 CAR A-C MASTERS</li>
           </ul>
         </div>
+
+        {/* SOCIAL MEDIA */}
+        <div className="footer-column">
+          <h4>Follow Us</h4>
+          <div className="social-icons">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
+          </div>
+        </div>
       </div>
 
-      {/* Bottom Section */}
       <div className="footer-bottom">
-        <p>Copyright © 2025 Car AC Masters. All rights reserved</p>
+        <p>Copyright © 2025 Car A-C Masters. All rights reserved.</p>
       </div>
     </footer>
   );
 }
 
 export default Footer;
+
