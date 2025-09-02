@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutUs.css";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -55,7 +56,9 @@ const AboutUs = () => {
 
       {/* Learn More Button */}
       <div className="learn-more">
-        <button>LEARN MORE</button>
+        <Link to='/services'>
+        <button className="learn-more">LEARN MORE</button>
+        </Link>
       </div>
     </section>
   );
