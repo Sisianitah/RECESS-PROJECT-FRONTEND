@@ -66,8 +66,8 @@ function HeroSection() {
           <Link to="/booking">
             <button className="btn btn-warning ms-3 fw-bold">Book Service</button>
           </Link>
-          <Link to="/login">
-            <button className="btn btn-outline-warning ms-3 fw-bold">Login</button>
+          <Link to="/signup">
+            <button className="btn btn-outline-warning ms-3 fw-bold">Signup</button>
           </Link>
         </div>
       </nav>

@@ -1,7 +1,7 @@
 .about-us {
   background-color: #020202;
   font-family: Arial, sans-serif;
-  color: #333;
+  color: #fefdfd;
   text-align: center;
 }
 
@@ -23,10 +23,10 @@
 }
 
 .intro-image img {
-  background-image: url("../Assets/WhatsApp\ Image\ 2025-08-01\ at\ 22.55.30_1629e010.jpg");
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  background-image: url("../Assets/image.png");
+  border-radius: 100%;
+  width: 400px;
+  height: 600px;
   object-fit: cover;
 }
 
@@ -46,7 +46,7 @@
 
 .mission-section,
 .vision-section {
-  background: #fff7f2;
+  background: #8c8b8b;
   padding: 50px;
   margin: 20px auto;
   max-width: 800px;

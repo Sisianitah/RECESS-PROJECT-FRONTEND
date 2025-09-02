@@ -1,57 +1,44 @@
 import React from "react";
-import "./Teamsection.css"; 
+import "./Teamsection.css"; // make sure the file name matches exactly
 import imgEllipse1 from "../Assets/AMBASSADOR.jpg";
 import imgEllipse2 from "../Assets/1454 resize.jpg";
 import imgEllipse3 from "../Assets/WhatsApp Image 2025-08-05 at 15.56.04_35c94cd1.jpg";
 
-const Teamsection = () => {
-  const teamMembers = [
-    {
-      image: imgEllipse1,
-      name: "SISI ANITAH",
-      role: "DEVELOPER",
-    },
-    {
-      image: imgEllipse2,
-      name: "ENG. PIDO MICHAEL", 
-      role: "CEO",
-    },
-    {
-      image: imgEllipse3,
-      name: "NALUWEMBA LATIFAH",
-      role: "DEVELOPER",
-    },
-  ];
+const teamMembers = [
+  {
+    name: "Sisi Anitah",
+    image: imgEllipse1,
+    role: "DEVELOPER",
+  },
+  {
+    name: "Naluwemba Latifah",
+    image: imgEllipse2,
+    role: "DEVELOPER",
+  },
+  {
+    name: "Eng. Pido Michael",
+    image: imgEllipse3,
+    role: "CEO",
+  },
+];
 
+export default function Teamsection() {
   return (
-    <section className="py-16 bg-white">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 text-black">
-          OUR TEAM
-        </h2>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {teamMembers.map((member, index) => (
-            <div key={index} className="text-center">
-              <div className="w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden">
-                <img 
-                  src={member.image}
-                  alt={member.name}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold text-[#fb4214] mb-2">
-                {member.name}
-              </h3>
-              <p className="text-lg font-bold text-[#fb4214]">
-                {member.role}
-              </p>
+    <section className="team-section">
+      <div className="team-header">
+        <span className="divider"></span>
+      </div>
+      <div className="team-container">
+        {teamMembers.map((member, index) => (
+          <div key={index} className="team-card">
+            <div className="team-image">
+              <img src={member.image} alt={member.name} />
             </div>
-          ))}
-        </div>
+            <h3>{member.name}</h3>
+            <p className="team-role">{member.role}</p>
+          </div>
+        ))}
       </div>
     </section>
   );
-};
-
-export default Teamsection;
+}
